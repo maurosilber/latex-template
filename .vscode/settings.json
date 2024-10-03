@@ -10,5 +10,13 @@
             ],
             "env": {}
         }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "tectonic",
+            "tools": [
+                "tectonic"
+            ]
+        }
     ]
 }
