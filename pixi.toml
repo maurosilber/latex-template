@@ -1,0 +1,7 @@
+[project]
+name = "latex"
+channels = ["conda-forge"]
+platforms = ["win-64", "osx-arm64", "linux-64"]
+
+[dependencies]
+tectonic = "*"

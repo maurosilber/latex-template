@@ -1,0 +1,14 @@
+{
+    "latex-workshop.latex.tools": [
+        {
+            "name": "tectonic",
+            "command": "pixi",
+            "args": [
+                "run",
+                "tectonic",
+                "%DOCFILE_EXT%"
+            ],
+            "env": {}
+        }
+    ]
+}
