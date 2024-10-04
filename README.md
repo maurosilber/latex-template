@@ -12,7 +12,8 @@ Install it.
 3. Open `article.tex` from the file explorer (left side panel).
 The PDF is (re)compiled each time `article.tex` is saved.
 
-4. Open the LaTeX workshop extension ($\TeX$ icon, left side panel)
+4. Click on the `Open Preview` icon (top right)
+or open the LaTeX workshop extension ($\TeX$ icon, left side panel)
 and click on `View LaTeX PDF`.
 A tab with the compiled PDF should open.
 
