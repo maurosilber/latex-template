@@ -1,0 +1,4 @@
+pinning-strategy = "no-pin"
+
+[repodata-config]
+disable-sharded = false
