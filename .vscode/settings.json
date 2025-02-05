@@ -6,7 +6,7 @@
             "args": [
                 "run",
                 "tectonic",
-                "%DOCFILE_EXT%"
+                "%DOC_EXT%"
             ],
             "env": {}
         }
