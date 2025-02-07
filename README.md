@@ -10,7 +10,8 @@ It will suggest to install the **LaTeX Workshop extension** from James Wu.
 Install it.
 
 3. Open `article.tex` from the file explorer (left side panel).
-The PDF is (re)compiled each time `article.tex` is saved.
+The PDF is (re)compiled each time `article.tex` is saved,
+and saved to `_build/article.pdf`.
 
 4. Click on the `Open Preview` icon (top right)
 or open the LaTeX workshop extension ($\TeX$ icon, left side panel)
