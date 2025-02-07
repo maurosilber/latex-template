@@ -17,6 +17,8 @@ and saved to `_build/article.pdf`.
 or open the LaTeX workshop extension ($\TeX$ icon, left side panel)
 and click on `View LaTeX PDF`.
 A tab with the compiled PDF should open.
+`Ctrl + click` (`Cmd + click`) on the PDF
+takes you to the corresponding location in the source code (using SyncTeX).
 
 ## How does it work?
 
