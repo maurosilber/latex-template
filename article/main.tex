@@ -1,7 +1,18 @@
-\documentclass[12pt]{article}
+\documentclass[12pt,a4paper]{article}
 
+% Language
 \usepackage[utf8]{inputenc}
 \usepackage[spanish,activeacute]{babel}
+
+% Links
+\usepackage[hidelinks]{hyperref}  % remove default link borders
+
+% Figures
+\usepackage{graphicx}
+\setcounter{totalnumber}{1}  % 1 figure per page
+
+% Bibliography
+\bibliographystyle{apalike}
 
 \title{Titulo}
 \author{Autor}
@@ -12,5 +23,14 @@
 
 \section{Sección}
 \subsection{Subsección}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{figures/the-book-of-why-cover.jpg}
+    \caption{Tapa del libro "The Book of Why" de \cite{10.5555/3238230}.}
+\end{figure}
+
+% Bibliography
+\bibliography{bibliography.bib}
 
 \end{document}
