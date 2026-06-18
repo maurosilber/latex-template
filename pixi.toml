@@ -1,6 +1,5 @@
-[project]
-name = "latex"
-channels = ["https://prefix.dev/conda-forge"]
+[workspace]
+channels = ["conda-forge"]
 platforms = ["win-64", "osx-arm64", "linux-64"]
 
 [dependencies]
