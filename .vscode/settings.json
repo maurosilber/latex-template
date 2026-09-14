@@ -1,16 +1,15 @@
 {
-    "latex-workshop.latex.outDir": "_build",
+    "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/article/_build",
     "latex-workshop.latex.tools": [
         {
             "name": "tectonic",
             "command": "pixi",
             "args": [
                 "run",
-                "tectonic",
-                "--synctex",
-                "--outdir",
-                "_build",
-                "%DOC_EXT%"
+                "compile",
+                "%DOC_EXT%",
+                "--",
+                "--print", // prints extra information that LaTeX Workshop uses to display errors
             ],
             "env": {}
         }

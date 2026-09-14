@@ -4,3 +4,11 @@ platforms = ["win-64", "osx-arm64", "linux-64"]
 
 [dependencies]
 tectonic = "*"
+
+[tasks.compile]
+# This task is also used by LaTex Workshop
+# See: .vscode/settings.json
+description = "Compile a .tex file using tectonic with SyncTeX data"
+args = [{ arg = "file", default = "main.tex" }]
+cwd = "article"
+cmd = "tectonic {{ file }} --synctex --outdir _build"
